@@ -1,3 +1,6 @@
+const $ = (selector) => document.querySelector(selector);
+const $$ = (selector) => document.querySelectorAll(selector)
+
 let currentCountries = {}
 
 const getAllCountries = async function () {
@@ -6,7 +9,7 @@ const getAllCountries = async function () {
 }
 
 const displayCountries =  function (data) {
-  const countriesGrid = document.querySelector('.countries-grid');
+  const countriesGrid = $('.countries-grid');
   countriesGrid.innerHTML = ''
 
   data.forEach(country => {
@@ -38,11 +41,11 @@ const displayCountries =  function (data) {
 }
 
 const openDropDown = async function () {
-  document.querySelector('.dropdown-body').classList.toggle("on")
+  $('.dropdown-body').classList.toggle("on")
 
-  document.querySelectorAll('.li-drop').forEach(countryLi => {
+  $$('.li-drop').forEach(countryLi => {
     countryLi.addEventListener("click", async () => {
-      document.querySelector('.dropdown-header span').textContent = countryLi.textContent
+      $('.dropdown-header span').textContent = countryLi.textContent
       let data = await getAllCountries()
       if (countryLi.textContent !== "All") {
         data = data.filter(country => country.region.includes(countryLi.textContent));
@@ -60,10 +63,10 @@ const openDetailsPage =  function (countryName) {
 }
 
 const activateDarkMode =  function () {
-  document.querySelector('body').classList.toggle('dark-theme')
+  $('body').classList.toggle('dark-theme')
 }
 
-document.querySelector('.search-input').addEventListener('input', (e) => {
+$('.search-input').addEventListener('input', (e) => {
   const data = currentCountries.filter(country => country.name.toLowerCase().includes(e.target.value.toLowerCase()))
   displayCountries(data)
 })
