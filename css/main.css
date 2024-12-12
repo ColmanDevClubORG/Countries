@@ -125,6 +125,11 @@
   transform: translateY(-20px);
 }
 
+.dropdown-body.on{
+  opacity: 1;
+  visibility: visible;
+}
+
 .filters .dropdown-body li {
   padding: 8px 25px;
   text-transform: capitalize;
