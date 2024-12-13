@@ -66,7 +66,7 @@ body {
 }
 
 .country-info {
-  padding: 40px 0;
+  padding: 0px 0;
 }
 
 .country-info h1 {
@@ -133,3 +133,22 @@ body {
   gap: 8px;
   flex-wrap: wrap;
 }
+
+.country-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country-data-list {
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.border-countries {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
