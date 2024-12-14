@@ -67,18 +67,18 @@
           />
         </div>
         <div class="dropdown-wrapper">
-          <div class="dropdown-header flex flex-jc-sb flex-ai-c">
-            <span>Filter by Region</span>
+          <div class="dropdown-header flex flex-jc-sb flex-ai-c" onclick="showRegions()">
+            <span id="region-filter" >Filter by Region</span>
             <i class="fa-regular fa-chevron-down icon"></i>
           </div>
           <div class="dropdown-body">
-            <ul>
-              <li data-region="all">All</li>
-              <li data-region="africa">Africa</li>
-              <li data-region="americas">America</li>
-              <li data-region="asia">Asia</li>
-              <li data-region="europe">Europe</li>
-              <li data-region="oceania">Oceania</li>
+            <ul id="list-by-region">
+              <li data-region="all" onclick="chosenRegion(this)">All</li>
+              <li data-region="africa" onclick="chosenRegion(this)">Africa</li>
+              <li data-region="americas" onclick="chosenRegion(this)">America</li>
+              <li data-region="asia" onclick="chosenRegion(this)">Asia</li>
+              <li data-region="europe" onclick="chosenRegion(this)">Europe</li>
+              <li data-region="oceania" onclick="chosenRegion(this)">Oceania</li>
             </ul>
           </div>
         </div>
@@ -154,5 +154,6 @@
         </section>
       </div>
     </main>
+    <script src="./js/index.js"></script>
   </body>
 </html>
