@@ -107,3 +107,15 @@ if (allRegionsOption) {
 document.addEventListener('DOMContentLoaded', () => {
     filterCountriesByRegion('all');
 });
+
+function handleCountryClick(event) {
+    event.preventDefault();
+
+    const countryElement = event.target.closest('.country');
+    if (countryElement) {
+        const countryName = countryElement.getAttribute('data-country-name');
+        window.location.href = `details.html?country=${encodeURIComponent(countryName)}`;
+    }
+}
+
+document.querySelector('.countries-grid').addEventListener('click', handleCountryClick);
