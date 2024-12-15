@@ -1,0 +1,279 @@
+
+
+const CountriesData=[
+  {
+      "name": "Åland Islands",
+      "flag": "https://flagcdn.com/w320/ax.png",
+      "population": 21225,
+      "region": "Europe",
+      "capital": "Mariehamn"
+  },
+  {
+      "name": "Afghanistan",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
+      "population": 27657145,
+      "region": "Asia",
+      "capital": "Kabul"
+  },
+  {
+      "name": "Albania",
+      "flag": "https://flagcdn.com/w320/al.png",
+      "population": 2886026,
+      "region": "Europe",
+      "capital": "Tirana"
+  },
+  {
+      "name": "Algeria",
+      "flag": "https://flagcdn.com/w320/dz.png",
+      "population": 40400000,
+      "region": "Africa",
+      "capital": "Algiers"
+  },
+  {
+      "name": "American Samoa",
+      "flag": "https://flagcdn.com/w320/as.png",
+      "population": 57100,
+      "region": "Oceania",
+      "capital": "Pago Pago"
+  },
+  {
+      "name": "Andorra",
+      "flag": "https://flagcdn.com/w320/ad.png",
+      "population": 78014,
+      "region": "Europe",
+      "capital": "Andorra la Vella"
+  },
+  {
+      "name": "Angola",
+      "flag": "https://flagcdn.com/w320/ao.png",
+      "population": 25868000,
+      "region": "Africa",
+      "capital": "Luanda"
+  },
+  {
+      "name": "Anguilla",
+      "flag": "https://flagcdn.com/w320/ai.png",
+      "population": 13452,
+      "region": "Americas",
+      "capital": "The Valley"
+  },
+  {
+      "name": "Antarctica",
+      "flag": "https://flagcdn.com/w320/aq.png",
+      "population": 1000,
+      "region": "Polar",
+      "capital": ""
+  },
+  {
+      "name": "Israel",
+      "flag": "https://flagcdn.com/w320/il.png",
+      "population": 8527400,
+      "region": "Asia",
+      "capital": "Jerusalem"
+  },
+  {
+      "name": "Italy",
+      "flag": "https://flagcdn.com/w320/it.png",
+      "population": 60665551,
+      "region": "Europe",
+      "capital": "Rome"
+  },
+  {
+      "name": "Jamaica",
+      "flag": "https://flagcdn.com/w320/jm.png",
+      "population": 2723246,
+      "region": "Americas",
+      "capital": "Kingston"
+  },
+  {
+      "name": "Japan",
+      "flag": "https://flagcdn.com/w320/jp.png",
+      "population": 126960000,
+      "region": "Asia",
+      "capital": "Tokyo"
+  },
+  {
+      "name": "Jersey",
+      "flag": "https://flagcdn.com/w320/je.png",
+      "population": 100800,
+      "region": "Europe",
+      "capital": "Saint Helier"
+  },
+  {
+      "name": "Jordan",
+      "flag": "https://flagcdn.com/w320/jo.png",
+      "population": 9531712,
+      "region": "Asia",
+      "capital": "Amman"
+  },
+  {
+      "name": "Kazakhstan",
+      "flag": "https://flagcdn.com/w320/kz.png",
+      "population": 17753200,
+      "region": "Asia",
+      "capital": "Astana"
+  },
+  {
+      "name": "Kenya",
+      "flag": "https://flagcdn.com/w320/ke.png",
+      "population": 47251000,
+      "region": "Africa",
+      "capital": "Nairobi"
+  },
+  {
+      "name": "Kiribati",
+      "flag": "https://flagcdn.com/w320/ki.png",
+      "population": 113400,
+      "region": "Oceania",
+      "capital": "South Tarawa"
+  },
+  {
+      "name": "Kuwait",
+      "flag": "https://flagcdn.com/w320/kw.png",
+      "population": 4183658,
+      "region": "Asia",
+      "capital": "Kuwait City"
+  },
+  {
+      "name": "Kyrgyzstan",
+      "flag": "https://flagcdn.com/w320/kg.png",
+      "population": 6047800,
+      "region": "Asia",
+      "capital": "Bishkek"
+  },
+  {
+      "name": "Laos",
+      "flag": "https://flagcdn.com/w320/la.png",
+      "population": 6492400,
+      "region": "Asia",
+      "capital": "Vientiane"
+  },
+  {
+      "name": "Latvia",
+      "flag": "https://flagcdn.com/w320/lv.png",
+      "population": 1961600,
+      "region": "Europe",
+      "capital": "Riga"
+  },
+  {
+      "name": "Lebanon",
+      "flag": "https://flagcdn.com/w320/lb.png",
+      "population": 5988000,
+      "region": "Asia",
+      "capital": "Beirut"
+  },
+  {
+      "name": "Lesotho",
+      "flag": "https://flagcdn.com/w320/ls.png",
+      "population": 1894194,
+      "region": "Africa",
+      "capital": "Maseru"
+  },
+  {
+      "name": "Liberia",
+      "flag": "https://flagcdn.com/w320/lr.png",
+      "population": 4615000,
+      "region": "Africa",
+      "capital": "Monrovia"
+  },
+  {
+      "name": "Libya",
+      "flag": "https://flagcdn.com/w320/ly.png",
+      "population": 6385000,
+      "region": "Africa",
+      "capital": "Tripoli"
+  },
+  {
+      "name": "Liechtenstein",
+      "flag": "https://flagcdn.com/w320/li.png",
+      "population": 37623,
+      "region": "Europe",
+      "capital": "Vaduz"
+  },
+  {
+      "name": "Lithuania",
+      "flag": "https://flagcdn.com/w320/lt.png",
+      "population": 2872294,
+      "region": "Europe",
+      "capital": "Vilnius"
+  },
+  {
+      "name": "Luxembourg",
+      "flag": "https://flagcdn.com/w320/lu.png",
+      "population": 576200,
+      "region": "Europe",
+      "capital": "Luxembourg"
+  }
+]
+// console.log(CountriesData);
+// console.log("hi");
+// import countries from './CountriesData.json' 
+//console.log(CountriesData)
+let countriesGrid = document.querySelector(".countries-grid");
+const searchInput=document.querySelector("[data-search]")
+
+searchInput.addEventListener("input",e=>{
+  const value=e.target.value.toLowerCase()
+  console.log(value)
+  const searchedCountries = CountriesData.filter(
+      (country) => country.name.toLowerCase().includes(value)
+    );
+  console.log(searchedCountries);
+  countriesGrid.innerHTML = renderCountries(searchedCountries);
+  
+
+})
+
+const renderCountries = (countries) => {
+  return countries.map(
+      (country) =>
+        `
+      <a href="#" class="country scale-effect" data-country-name="${country.name}">
+        <div class="country-flag">
+          <img
+            src="${country.flag}"
+            alt="${country.name} FLag"
+          />
+        </div>
+        <div class="country-info">
+          <h2 class="country-title">${country.name}</h2>
+          <ul class="country-brief">
+            <li>
+              <strong>population: </strong>${country.population}
+            </li>
+            <li>
+              <strong>Region: </strong>${country.region}
+            </li>
+            <li>
+              <strong>capital: </strong>${country.capital}
+            </li>
+          </ul>
+        </div>
+      </a>`
+    )
+    .join("");
+};
+
+const toggleFilterRegionMenu = () => {
+  let filter = document.getElementById("dropdown-body").style;
+
+  filter.visibility === "hidden"
+    ? ((filter.visibility = "visible"), (filter.opacity = 1))
+    : ((filter.visibility = "hidden"), (filter.opacity = 0));
+};
+
+const filterRegion = (e) => {
+  const selectedRegion = e.getAttribute("data-region");
+  if (selectedRegion === "all") {
+    countriesGrid.innerHTML = renderCountries(CountriesData);
+  } else {
+    const region = CountriesData.filter(
+      (country) => country.region.toLowerCase() === selectedRegion
+    );
+    console.log(region);
+    countriesGrid.innerHTML = renderCountries(region);
+  }
+};
+
+
+countriesGrid.innerHTML = renderCountries(CountriesData);
