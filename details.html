@@ -27,13 +27,13 @@
     <link rel="stylesheet" href="./css/details.css" />
     <title>Details Page</title>
   </head>
-  <body>
+  <body onload="getSelectedCountry()">
     <!-- Loader -->
-    <div class="loader">
+    <!-- <div class="loader">
       <div class="spinner">
         <i class="fa-regular fa-circle-notch fa-spin icon"></i>
       </div>
-    </div>
+    </div> -->
     <!-- Scroll Top -->
     <button
       type="button"
@@ -69,11 +69,14 @@
         </a>
       </div>
     </div>
-    <main class="main">
-      <div class="container">
-        <section class="country-details"></section>
+    <main class="main" >
+      <div class="container" >
+        <section class="country-details" >
+
+        </section>
       </div>
     </main>
+
     <script src="./js/common.js"></script>
     <script src="./js/details.js"></script>
   </body>
