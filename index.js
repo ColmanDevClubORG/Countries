@@ -21,7 +21,7 @@ function renderCountries(countries) {
   container.innerHTML = ''; // Clear container
   countries.forEach(country => {
     const countryFrame = document.createElement('a');
-    countryFrame.href = "#";
+    countryFrame.href = "details.html";
     countryFrame.classList.add('country', 'scale-effect');
     countryFrame.innerHTML = `
       <div class="country-flag">
@@ -36,6 +36,11 @@ function renderCountries(countries) {
         </ul>
       </div>
     `;
+    // Store selected country in localStorage to pass it to details page
+    countryFrame.addEventListener('click', () => {
+        localStorage.setItem('selectedCountry', JSON.stringify(country));
+      });
+      
     container.appendChild(countryFrame);
   });
 }
