@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="./css/main.css" />
     <title>Countries Info</title>
   </head>
-  <body>
+  <body onload="allCountries()">
     <!-- Scroll Top -->
     <button
       type="button"
@@ -63,18 +63,19 @@
           <input
             type="text"
             class="search-input"
+            oninput="searchByInputCountries(event)"
             placeholder="Search for a country..."
           />
         </div>
-        <div class="dropdown-wrapper">
-          <div class="dropdown-header flex flex-jc-sb flex-ai-c">
+        <div class="dropdown-wrapper" >
+          <div class="dropdown-header flex flex-jc-sb flex-ai-c" onclick="toggleDropdown()">
             <span>Filter by Region</span>
             <i class="fa-regular fa-chevron-down icon"></i>
           </div>
-          <div class="dropdown-body">
+          <div class="dropdown-body" onclick="searchByRegion(event)">
             <ul>
               <li data-region="all">All</li>
-              <li data-region="africa">Africa</li>
+              <li data-region="africa" >Africa</li>
               <li data-region="americas">America</li>
               <li data-region="asia">Asia</li>
               <li data-region="europe">Europe</li>
@@ -87,8 +88,8 @@
     <!-- Countries -->
     <main class="main">
       <div class="container">
-        <section class="countries-grid">
-          <a
+        <section class="countries-grid" onclick="selectCountry(event)">
+          <!-- <a
             href="#"
             class="country scale-effect"
             data-country-name="Afghanistan"
@@ -150,9 +151,12 @@
                 <li><strong>capital: </strong>Belmopan</li>
               </ul>
             </div>
-          </a>
+          </a> -->
         </section>
       </div>
     </main>
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="/js/filters.js"></script>
   </body>
 </html>
