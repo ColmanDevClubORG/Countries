@@ -1,5 +1,6 @@
 
 
+
 const CountriesData=[
   {
       "name": "Åland Islands",
@@ -214,11 +215,11 @@ const searchInput=document.querySelector("[data-search]")
 
 searchInput.addEventListener("input",e=>{
   const value=e.target.value.toLowerCase()
-  console.log(value)
+  //console.log(value)
   const searchedCountries = CountriesData.filter(
       (country) => country.name.toLowerCase().includes(value)
     );
-  console.log(searchedCountries);
+  //console.log(searchedCountries);
   countriesGrid.innerHTML = renderCountries(searchedCountries);
   
 
@@ -270,7 +271,7 @@ const filterRegion = (e) => {
     const region = CountriesData.filter(
       (country) => country.region.toLowerCase() === selectedRegion
     );
-    console.log(region);
+    //console.log(region);
     countriesGrid.innerHTML = renderCountries(region);
   }
 };
