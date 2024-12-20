@@ -70,9 +70,12 @@
   font-weight: inherit;
 }
 
+
+
 .filters .dropdown-wrapper {
   position: relative;
   width: 230px;
+
 }
 
 @media (min-width: 64em) {
@@ -91,6 +94,7 @@
   transform: translateY(0);
   z-index: 9;
 }
+
 
 .filters .dropdown-header,
 .filters .dropdown-body {
