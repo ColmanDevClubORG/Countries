@@ -61,7 +61,8 @@ body {
 
 .country-flag img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height:100%
   object-fit: cover;
 }
 
@@ -86,6 +87,8 @@ body {
 .country-info li {
   text-transform: capitalize;
   color: #2b3945;
+  
+  
 }
 
 .country-info li button {

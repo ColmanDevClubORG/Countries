@@ -28,12 +28,7 @@
     <title>Details Page</title>
   </head>
   <body>
-    <!-- Loader -->
-    <div class="loader">
-      <div class="spinner">
-        <i class="fa-regular fa-circle-notch fa-spin icon"></i>
-      </div>
-    </div>
+    
     <!-- Scroll Top -->
     <button
       type="button"
@@ -71,10 +66,18 @@
     </div>
     <main class="main">
       <div class="container">
-        <section class="country-details"></section>
+        <section class="country-details">
+          <div class="country-flag">
+            <img src="" alt="Country Flag" />
+          </div>
+          <div class="country-info">
+            <h2 class="country-title"></h2>
+            <ul class="country-brief"></ul>
+          </div>
+        </section>
       </div>
     </main>
-    <script src="./js/common.js"></script>
-    <script src="./js/details.js"></script>
+    <script src="index.js"></script>
+    <script src="details.js"></script>
   </body>
 </html>
