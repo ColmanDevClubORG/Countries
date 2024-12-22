@@ -1,205 +1,384 @@
 [
     {
+        "flag": "https://flagcdn.com/ax.svg",
         "name": "Åland Islands",
         "flag": "https://flagcdn.com/w320/ax.png",
         "population": 21225,
         "region": "Europe",
-        "capital": "Mariehamn"
+        "capital": "Mariehamn",
+        "subregion": "Northern Europe",
+        "topLevelDomain": [".ax"],
+        "currencies": ["Euro"],
+        "languages": ["Swedish"],
+        "borders": []
+
     },
     {
+        "flag": "https://flagcdn.com/af.svg",
         "name": "Afghanistan",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
         "population": 27657145,
         "region": "Asia",
-        "capital": "Kabul"
+        "capital": "Kabul",
+        "subregion": "Southern Asia",
+        "topLevelDomain": [" .af"],
+        "currencies": ["Afghan afghani"],
+        "languages": ["Pashto", "Uzbek", "Turkmen"],
+        "borders": ["Iran", "Pakistan", "Turkmenistan", "Uzbekistan", "Tajikistan", "China"]
     },
     {
+        "flag": "https://flagcdn.com/al.svg",
         "name": "Albania",
         "flag": "https://flagcdn.com/w320/al.png",
         "population": 2886026,
         "region": "Europe",
-        "capital": "Tirana"
+        "capital": "Tirana",
+        "subregion": "Southern Europe",
+        "topLevelDomain": [".al"],
+        "currencies": ["Albanian lek"],
+        "languages": ["Albanian"],
+        "borders": ["Montenegro", "Kosovo", "Macedonia", "Greece"]
     },
     {
+        "flag": "https://flagcdn.com/dz.svg",
         "name": "Algeria",
         "flag": "https://flagcdn.com/w320/dz.png",
         "population": 40400000,
         "region": "Africa",
-        "capital": "Algiers"
+        "capital": "Algiers",
+        "subregion": "Northern Africa",
+        "topLevelDomain": [".dz"],
+        "currencies": ["Algerian dinar"],
+        "languages": ["Arabic"],
+        "borders": ["Tunisia", "Libya", "Niger", "Mali", "Mauritania", "Western Sahara", "Morocco"]
+
     },
     {
+        "flag": "https://flagcdn.com/as.svg",
         "name": "American Samoa",
         "flag": "https://flagcdn.com/w320/as.png",
         "population": 57100,
         "region": "Oceania",
-        "capital": "Pago Pago"
+        "capital": "Pago Pago",
+        "subregion": "Polynesia",
+        "topLevelDomain": [".as"],
+        "currencies": ["United State Dollar"],
+        "languages": ["English", "Samoan"],
+        "borders": []
     },
     {
+        "flag": "https://flagcdn.com/ad.svg",
         "name": "Andorra",
         "flag": "https://flagcdn.com/w320/ad.png",
         "population": 78014,
         "region": "Europe",
-        "capital": "Andorra la Vella"
+        "capital": "Andorra la Vella",
+        "subregion": "Southern Europe",
+        "topLevelDomain": [".ad"],
+        "currencies": ["Euro"],
+        "languages": ["Catalan"],
+        "borders": ["France", "Spain"]
     },
     {
+        "flag": "https://flagcdn.com/ao.svg",
         "name": "Angola",
         "flag": "https://flagcdn.com/w320/ao.png",
         "population": 25868000,
         "region": "Africa",
-        "capital": "Luanda"
+        "capital": "Luanda",
+        "subregion": "Middle Africa",
+        "topLevelDomain": [".ao"],
+        "currencies": ["Angolan kwanza"],
+        "languages": ["Portuguese"],
+        "borders": ["Namibia", "Zambia", "Congo", "DRC", "Zambia"]
     },
     {
+        "flag": "https://flagcdn.com/ai.svg",
         "name": "Anguilla",
         "flag": "https://flagcdn.com/w320/ai.png",
         "population": 13452,
-        "region": "Americas",
-        "capital": "The Valley"
+        "region": "America",
+        "capital": "The Valley",
+        "subregion": "Caribbean",
+        "topLevelDomain": [".ai"],
+        "currencies": ["East Caribbean dollar"],
+        "languages": ["English"],
+        "borders": []
     },
     {
+        "flag": "https://flagcdn.com/aq.svg",
         "name": "Antarctica",
         "flag": "https://flagcdn.com/w320/aq.png",
         "population": 1000,
         "region": "Polar",
-        "capital": ""
+        "capital": "",
+        "subregion": "",
+        "topLevelDomain": [".aq"],
+        "currencies": ["United States Dollar"],
+        "languages": ["English", "Russian"],
+        "borders": []
     },
     {
+        "flag": "https://flagcdn.com/il.svg",
         "name": "Israel",
         "flag": "https://flagcdn.com/w320/il.png",
         "population": 8527400,
         "region": "Asia",
-        "capital": "Jerusalem"
+        "capital": "Jerusalem",
+        "subregion": "Western Asia",
+        "topLevelDomain": [".il"],
+        "currencies": ["Israeli new shekel"],
+        "languages": ["Hebrew", "Arabic"],
+        "borders": ["Lebanon", "Syria", "Jordan", "Egypt"]
     },
     {
+        "flag": "https://flagcdn.com/it.svg",
         "name": "Italy",
         "flag": "https://flagcdn.com/w320/it.png",
         "population": 60665551,
         "region": "Europe",
-        "capital": "Rome"
+        "capital": "Rome",
+        "subregion": "Southern Europe",
+        "topLevelDomain": [".it"],
+        "currencies": ["Euro"],
+        "languages": ["Italian"],
+        "borders": ["Austria", "France", "San Marino", "Slovenia", "Switzerland", "Vatican City"]
+
     },
     {
+        "flag": "https://flagcdn.com/jm.svg",
         "name": "Jamaica",
         "flag": "https://flagcdn.com/w320/jm.png",
         "population": 2723246,
-        "region": "Americas",
-        "capital": "Kingston"
+        "region": "America",
+        "capital": "Kingston",
+        "subregion": "Caribbean",
+        "topLevelDomain": [".jm"],
+        "currencies": ["Jamaican dollar"],
+        "languages": ["English"],
+        "borders": []
     },
     {
+        "flag": "https://flagcdn.com/jp.svg",
         "name": "Japan",
         "flag": "https://flagcdn.com/w320/jp.png",
         "population": 126960000,
         "region": "Asia",
-        "capital": "Tokyo"
+        "capital": "Tokyo",
+        "subregion": "Eastern Asia",
+        "topLevelDomain": [".jp"],
+        "currencies": ["Japanese yen"],
+        "languages": ["Japanese"],
+        "borders": []
     },
     {
+        "flag": "https://flagcdn.com/je.svg",
         "name": "Jersey",
         "flag": "https://flagcdn.com/w320/je.png",
         "population": 100800,
         "region": "Europe",
-        "capital": "Saint Helier"
+        "capital": "Saint Helier",
+        "subregion": "Northern Europe",
+        "topLevelDomain": [".je"],
+        "currencies": ["British pound", "Euro"],
+        "languages": ["English", "French"],
+        "borders": []
     },
     {
+        "flag": "https://flagcdn.com/jo.svg",
         "name": "Jordan",
         "flag": "https://flagcdn.com/w320/jo.png",
         "population": 9531712,
         "region": "Asia",
-        "capital": "Amman"
+        "capital": "Amman",
+        "subregion": "Western Asia",
+        "topLevelDomain": [".jo"],
+        "currencies": ["Jordanian dinar"],
+        "languages": ["Arabic"],
+        "borders": ["Iraq", "Israel", "Saudi Arabia", "Syria"]
     },
     {
+        "flag": "https://flagcdn.com/kz.svg",
         "name": "Kazakhstan",
         "flag": "https://flagcdn.com/w320/kz.png",
         "population": 17753200,
         "region": "Asia",
-        "capital": "Astana"
+        "capital": "Astana",
+        "subregion": "Central Asia",
+        "topLevelDomain": [".kz"],
+        "currencies": ["Kazakhstani tenge"],
+        "languages": ["Kazakh", "Russian"],
+        "borders": ["China", "Kyrgyzstan", "Uzbekistan", "Russia", "Turkmenistan"]
     },
     {
+        "flag": "https://flagcdn.com/ke.svg",
         "name": "Kenya",
         "flag": "https://flagcdn.com/w320/ke.png",
         "population": 47251000,
         "region": "Africa",
-        "capital": "Nairobi"
+        "capital": "Nairobi",
+        "subregion": "Eastern Africa",
+        "topLevelDomain": [".ke"],
+        "currencies": ["Kenyan shilling"],
+        "languages": ["English", "Swahili"],
+        "borders": ["Ethiopia", "Somalia", "South Sudan", "Tanzania", "Uganda"]
     },
     {
+        "flag": "https://flagcdn.com/ki.svg",
         "name": "Kiribati",
         "flag": "https://flagcdn.com/w320/ki.png",
         "population": 113400,
         "region": "Oceania",
-        "capital": "South Tarawa"
+        "capital": "South Tarawa",
+        "subregion": "Micronesia",
+        "topLevelDomain": [".ki"],
+        "currencies": ["Australian dollar"],
+        "languages": ["English"],
+        "borders": []
     },
     {
+        "flag": "https://flagcdn.com/kw.svg",
         "name": "Kuwait",
         "flag": "https://flagcdn.com/w320/kw.png",
         "population": 4183658,
         "region": "Asia",
-        "capital": "Kuwait City"
+        "capital": "Kuwait City",
+        "subregion": "Western Asia",
+        "topLevelDomain": [".kw"],
+        "currencies": ["Kuwaiti dinar"],
+        "languages": ["Arabic"],
+        "borders": ["Iraq", "Saudi Arabia"]
     },
     {
+        "flag": "https://flagcdn.com/kg.svg",
         "name": "Kyrgyzstan",
         "flag": "https://flagcdn.com/w320/kg.png",
         "population": 6047800,
         "region": "Asia",
-        "capital": "Bishkek"
+        "capital": "Bishkek",
+        "subregion": "Central Asia",
+        "topLevelDomain": [".kg"],
+        "currencies": ["Kyrgyzstani som"],
+        "languages": ["Kyrgyz", "Russian"],
+        "borders": ["China", "Kazakhstan", "Tajikistan", "Uzbekistan"]
     },
     {
+        "flag": "https://flagcdn.com/la.svg",
         "name": "Laos",
         "flag": "https://flagcdn.com/w320/la.png",
         "population": 6492400,
         "region": "Asia",
-        "capital": "Vientiane"
+        "capital": "Vientiane",
+        "subregion": "South-Eastern Asia",
+        "topLevelDomain": [".la"],
+        "currencies": ["Lao kip"],
+        "languages": ["Lao"],
+        "borders": ["Burma", "Cambodia", "China", "Thailand", "Vietnam"]
     },
     {
+        "flag": "https://flagcdn.com/lv.svg",
         "name": "Latvia",
         "flag": "https://flagcdn.com/w320/lv.png",
         "population": 1961600,
         "region": "Europe",
-        "capital": "Riga"
+        "capital": "Riga",
+        "subregion": "Northern Europe",
+        "topLevelDomain": [".lv"],
+        "currencies": ["Euro"],
+        "languages": ["Latvian"],
+        "borders": ["Estonia", "Lithuania", "Russia", "Belarus"]
+
     },
     {
+        "flag": "https://flagcdn.com/lb.svg",
         "name": "Lebanon",
         "flag": "https://flagcdn.com/w320/lb.png",
         "population": 5988000,
         "region": "Asia",
-        "capital": "Beirut"
+        "capital": "Beirut",
+        "subregion": "Western Asia",
+        "topLevelDomain": [".lb"],
+        "currencies": ["Lebanese pound"],
+        "languages": ["Arabic", "French"],
+        "borders": ["Israel", "Syria"]
     },
     {
+        "flag": "https://flagcdn.com/ls.svg",
         "name": "Lesotho",
         "flag": "https://flagcdn.com/w320/ls.png",
         "population": 1894194,
         "region": "Africa",
-        "capital": "Maseru"
+        "capital": "Maseru",
+        "subregion": "Southern Africa",
+        "topLevelDomain": [".ls"],
+        "currencies": ["Lesotho loti", "South African rand"],
+        "languages": ["English", "Southern Sotho"],
+        "borders": ["South Africa"]
     },
     {
+        "flag": "https://flagcdn.com/lr.svg",
         "name": "Liberia",
         "flag": "https://flagcdn.com/w320/lr.png",
         "population": 4615000,
         "region": "Africa",
-        "capital": "Monrovia"
+        "capital": "Monrovia",
+        "subregion": "Western Africa",
+        "topLevelDomain": [".lr"],
+        "currencies": ["Liberian dollar"],
+        "languages": ["English"],
+        "borders": ["Guinea", "Ivory Coast", "Sierra Leone"]
     },
     {
+        "flag": "https://flagcdn.com/ly.svg",
         "name": "Libya",
         "flag": "https://flagcdn.com/w320/ly.png",
         "population": 6385000,
         "region": "Africa",
-        "capital": "Tripoli"
+        "capital": "Tripoli",
+        "subregion": "Northern Africa",
+        "topLevelDomain": [".ly"],
+        "currencies": ["Libyan dinar"],
+        "languages": ["Arabic"],
+        "borders": ["Algeria", "Chad", "Egypt", "Niger", "Sudan", "Tunisia"]
     },
     {
+        "flag": "https://flagcdn.com/li.svg",
         "name": "Liechtenstein",
         "flag": "https://flagcdn.com/w320/li.png",
         "population": 37623,
         "region": "Europe",
-        "capital": "Vaduz"
+        "capital": "Vaduz",
+        "subregion": "Western Europe",
+        "topLevelDomain": [".li"],
+        "currencies": ["Swiss franc"],
+        "languages": ["German"],
+        "borders": ["Austria", "Switzerland"]
     },
     {
+        "flag": "https://flagcdn.com/lt.svg",
         "name": "Lithuania",
         "flag": "https://flagcdn.com/w320/lt.png",
         "population": 2872294,
         "region": "Europe",
-        "capital": "Vilnius"
+        "capital": "Vilnius",
+        "subregion": "Northern Europe",
+        "topLevelDomain": [".lt"],
+        "currencies": ["Euro"],
+        "languages": ["Lithuanian"],
+        "borders": ["Belarus", "Latvia", "Poland", "Russia"]
+
     },
     {
+        "flag": "https://flagcdn.com/lu.svg",
         "name": "Luxembourg",
         "flag": "https://flagcdn.com/w320/lu.png",
         "population": 576200,
         "region": "Europe",
-        "capital": "Luxembourg"
+        "capital": "Luxembourg",
+        "subregion": "Western Europe",
+        "topLevelDomain": [".lu"],
+        "currencies": ["Euro"],
+        "languages": ["French", "German", "Luxembourgish"],
+        "borders": ["Belgium", "France", "Germany"]
     }
 ]
