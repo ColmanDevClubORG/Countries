@@ -135,6 +135,10 @@
   background-color: #f2f2f2;
 }
 
+.filters .dropdown-body.show {
+  display: block ;
+}
+
 .filters .dropdown-body li:last-child {
   margin-bottom: 0;
 }
