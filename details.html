@@ -12,15 +12,9 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet"/>
     <!-- Fontawesome Library -->
-    <link
-      rel="stylesheet"
-      href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"
-    />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"/>
     <!-- Shared CSS Styles File -->
     <link rel="stylesheet" href="./css/common.css" />
     <!-- Page Custom CSS File -->
@@ -43,7 +37,7 @@
       <i class="fa-regular fa-chevron-up icon"></i>
     </button>
     <!-- Header -->
-    <header class="header">
+    <header id="header-id" class="header">
       <div class="container flex flex-jc-sb flex-ai-c">
         <div class="logo">
           <a href="index.html">
@@ -51,9 +45,9 @@
           </a>
         </div>
         <button
-          type="button"
-          aria-label="Theme Switcher Button"
-          class="theme-toggle flex flex-jc-sb flex-ai-c"
+                type="button"
+                aria-label="Theme Switcher Button"
+                class="theme-toggle flex flex-jc-sb flex-ai-c"
         >
           <i class="fa-regular fa-moon theme-icon"></i>
           <span class="theme-text">Dark Mode</span>
@@ -70,11 +64,12 @@
       </div>
     </div>
     <main class="main">
-      <div class="container">
-        <section class="country-details"></section>
+      <div id="container-id"class="container">
+        <section id="country-details-id" class="country-details"></section>
       </div>
     </main>
-    <script src="./js/common.js"></script>
-    <script src="./js/details.js"></script>
+    <script src="js/common.js" defer></script>
+    <script src="js/details.js"></script>
+
   </body>
 </html>
