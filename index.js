@@ -12,25 +12,25 @@ fetch('CountriesData.json')
 
         // view the countries
         function displayCountries(countriesToDisplay) {
-                countriesContainer.innerHTML = ''; // Cleaning all the current HTML in the div
-                countriesToDisplay.forEach((country) => {
-                    const countryDiv = document.createElement('div');
-                    countryDiv.className = 'country';
+        countriesContainer.innerHTML = ''; // Cleaning all the current HTML in the div
+        countriesToDisplay.forEach((country) => {
+        const countryDiv = document.createElement('div');
+        countryDiv.className = 'country';
             
-                    const countryLink = document.createElement('a');
-                    countryLink.href = `details.html?country=${country.name}`;
-                    countryDiv.appendChild(countryLink);
+        const countryLink = document.createElement('a');
+        countryLink.href = `details.html?country=${country.name}`;
+        countryDiv.appendChild(countryLink);
             
-                    const countryflagDiv = document.createElement('div');
-                    countryflagDiv.className = 'country-flag';
+        const countryflagDiv = document.createElement('div');
+        countryflagDiv.className = 'country-flag';
             
-                    const imgFlag = document.createElement('img');
-                    imgFlag.src = `${country.flag}`;
-                    imgFlag.alt = `${country.name}`;
-                    countryflagDiv.appendChild(imgFlag);
-                    countryLink.appendChild(countryflagDiv);
+        const imgFlag = document.createElement('img');
+        imgFlag.src = `${country.flag}`;
+        imgFlag.alt = `${country.name}`;
+        countryflagDiv.appendChild(imgFlag);
+        countryLink.appendChild(countryflagDiv);
 
-                    const countryInfo = document.createElement('div');
+        const countryInfo = document.createElement('div');
         countryInfo.className = 'country-info';
 
         const countryH = document.createElement('h2');
@@ -65,6 +65,15 @@ fetch('CountriesData.json')
             
 
         displayCountries(allCountries);
+        //filter by write
+        function FilterByWrite(){
+            const filterText=document.getElementById("filter-by-write").value.toLowerCase();
+            //filter during writing
+            const filterCountries= allCountries.filter(country => Object.values(country).some 
+            (value =>value.toString().toLowerCase().includes(filterText) ) )
+            displayCountries(filterCountries);
+        }
+        document.getElementById("filter-by-write").addEventListener(`input`,FilterByWrite );
 
         // filter by region
         const filterItems = document.querySelectorAll('#dropdown-wrapper ul li');
@@ -74,7 +83,7 @@ fetch('CountriesData.json')
 
                 let filteredCountries;
                 if (region === 'all') {
-                    filteredCountries = allCountries; // כל המדינות
+                    filteredCountries = allCountries; // all countries
                 } else {
                     filteredCountries = allCountries.filter((country) => {
                         return country.region.toLowerCase() === region;
