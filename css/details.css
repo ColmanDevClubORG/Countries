@@ -133,3 +133,6 @@ body {
   gap: 8px;
   flex-wrap: wrap;
 }
+.hide {
+  /* display: none; */
+}
