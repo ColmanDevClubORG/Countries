@@ -1,3 +1,8 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 body {
   font-size: 16px;
 }
@@ -36,15 +41,17 @@ body {
 
 @media (min-width: 64em) {
   .country-flag,
-  .country-info {
+  .country-info
+  .dark-country-info {
     flex: 1 0 calc(50% - 30px);
   }
 }
 
 .country-flag {
   flex-shrink: 0;
-  width: 450px;
+  width: 600px;
   max-width: 450px;
+  height: 300px;
   max-height: 350px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
   overflow: hidden;
@@ -63,10 +70,6 @@ body {
   display: block;
   max-width: 100%;
   object-fit: cover;
-}
-
-.country-info {
-  padding: 40px 0;
 }
 
 .country-info h1 {
@@ -132,4 +135,36 @@ body {
   align-items: inherit;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.mainCountryFlag {
+  width: 50%;
+  height: 70%;
+}
+
+
+.country-container , .main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.country-info {
+  padding: 40px 0;
+  padding-left: 10%;
+  width: 300px;
+}
+.country-name {
+  font-weight: bold;
+  font-size: 5vh;
+}
+.country-name, .country-region, .country-capital, .country-population {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.dark-country-info {
+  padding: 40px 0;
+  padding-left: 10%;
+  width: 300px;
 }

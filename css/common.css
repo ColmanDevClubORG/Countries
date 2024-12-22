@@ -112,30 +112,6 @@ button {
   font-size: 16px;
 }
 
-.loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fafafa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9;
-  transition: 0.2s linear, opacity 0.2s linear, visibility 0.3s linear;
-}
-
-.loader.close {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.loader .spinner .icon {
-  font-size: 80px;
-  color: #111517;
-}
-
 .scroll-top {
   position: fixed;
   bottom: 20px;
@@ -192,7 +168,6 @@ button {
 .header .logo h1 {
   font-size: 20px;
 }
-
 @media (max-width: 400px) {
   .header .logo h1 {
     font-size: 16px;
@@ -307,3 +282,8 @@ body.dark-theme .country-info li {
 body.dark-theme .country-info strong {
   color: white;
 }
+
+.body {
+  background-color: white;
+}
+
